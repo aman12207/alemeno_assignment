@@ -27,8 +27,7 @@
 
 ## Video
 
-- ([Demo Video](https://drive.google.com/file/d/1t3quHvz9M0TgCsqor8K38xomAGgNY9l-/view?usp=sharing))
-- ([Responsive Design](https://drive.google.com/file/d/1t2qO8ccamwwmfCvhtRmN4ZDpYdGxTVRb/view?usp=sharing))
+- ([Demo Video](https://drive.google.com/file/d/1gT_mntarz3q76EivZOob2Zzn2VjYpl4v/view?usp=sharing))
 
 <!-- GETTING STARTED -->
 
