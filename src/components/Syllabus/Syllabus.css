@@ -1,0 +1,12 @@
+.syllabus-item {
+  margin-bottom: 10px;
+}
+
+.syllabus-item-header {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.syllabus-item-expanded {
+  display: block;
+}

@@ -1,0 +1,22 @@
+.card-list {
+  width: 85vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 50px;
+  height: 100%;
+}
+
+/* Media query for larger screens */
+@media (min-width: 768px) {
+  .card-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Media query for even larger screens */
+@media (min-width: 1024px) {
+  .card-list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

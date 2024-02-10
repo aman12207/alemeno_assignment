@@ -1,0 +1,54 @@
+.search-form {
+  width: 90vw;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  text-align: center; /* Center the title */
+}
+
+/* CourseCard.css */
+.course-card {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+  box-shadow: rgba(19, 15, 235, 0.1) 1px 2px 20px;
+  border-radius: 5px; 
+  padding: 1rem;
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: rgba(19, 15, 235, 0.2) 3px 4px 20px; 
+  }
+}
+
+.course-card img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.course-card h2 {
+  margin-top: 0;
+  font-size: 1.2rem; 
+}
+
+button {
+  background-color: #007bff; 
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 10px;
+  font-size: 0.9rem; 
+}
+
+button:hover {
+  background-color: #0056b3; 
+}

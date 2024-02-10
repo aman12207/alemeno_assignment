@@ -1,0 +1,34 @@
+.course-list {
+  width: 85vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 50px;
+}
+
+/* Media query for larger screens */
+@media (min-width: 768px) {
+  .course-list {
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
+.search-form {
+  width: 90vw;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+
+.top-bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+.heading{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
