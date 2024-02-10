@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+<h1 align="center">React Assignment</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About The Assignment :eyes: 
 
-## Available Scripts
+### Course Listing Page :-
+* It fetches a list of courses from the Redux store.
+* It display the courses in a scrollable list and allows users to search for specific courses by name or instructor, and displays the filtered courses accordingly.
+* Users are able to click on a course to view its details.
 
-In the project directory, you can run:
+### Course Detail Page :-
+* It displays detailed information about a selected course.
+* It display the following course information (as described in the assignment):
+1) Course name
+2) Instructor's name
+3) Description
+4) Enrollment status (e.g., 'Open', 'Closed', 'In Progress')
+5) Course duration
+6) Schedule
+7) Location
+8) Pre-requisites
+9) Syllabus as an expandable item
 
-### `npm start`
+### Student Dashboard :-
+* A dashboard for students to display the courses they are enrolled in.
+* It display course name, instructor name, thumbnail, due date, and a progress bar.
+* It allows students to mark courses as completed.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Video
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- ([Demo Video](https://drive.google.com/file/d/1t3quHvz9M0TgCsqor8K38xomAGgNY9l-/view?usp=sharing))
+- ([Responsive Design](https://drive.google.com/file/d/1t2qO8ccamwwmfCvhtRmN4ZDpYdGxTVRb/view?usp=sharing))
 
-### `npm test`
+<!-- GETTING STARTED -->
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started 🚀 
 
-### `npm run build`
+To get a local copy up and running follow these simple example steps.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites 💻 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Node ([Download here!](https://nodejs.org/en/download))
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation :arrow_down: 
 
-### `npm run eject`
+**1.** Fork [this](https://github.com/dishantagg24/react-assignment) repository :fork_and_knife:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**2.** Clone your forked repository to your local system :busts_in_silhouette:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```sh
+git clone https://github.com/<your-username>/react-assignment.git
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Or Download and extract the zip file.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Running
 
-## Learn More
+**1.** Install NPM packages :arrow_down:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```sh
+npm install
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**2.** Run! :running_man:
 
-### Code Splitting
+```sh
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<!-- CONTRIBUTING -->
 
-### Analyzing the Bundle Size
+## Contributing 🤝 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Any contributions you make are **greatly appreciated**.
 
-### Making a Progressive Web App
+1. Create your Branch (`git checkout -b master/test-branch`)
+2. Commit your Changes (`git commit -m 'Add some code'`)
+3. Push to the Branch (`git push origin master/test-branch`)
+4. Open a Pull Request
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<!-- CONTACT -->
 
-### Advanced Configuration
+## Authors :closed_book: 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [Aman Gupta](https://github.com/aman12207)
